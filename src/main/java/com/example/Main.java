@@ -30,14 +30,17 @@ public class Main
 
         // Uso de getters
         System.out.println("Product 1 Name: " + product1.getName());
+        System.out.println("Product 1 Available: " + product1.getIsAvailable());
         System.out.println("Product 2 Role: " + product2.getRole());
+        System.out.println("Product 2 name: " + product2.getName());
         System.out.println("Product 3 Health: " + product3.getHealth());
+        System.out.println("Product 3 name: " + product3.getName());
 
         // Uso de toString()
         System.out.println(product1);
         System.out.println(product2);
         System.out.println(product3);
     }
-    
+
 }
 
